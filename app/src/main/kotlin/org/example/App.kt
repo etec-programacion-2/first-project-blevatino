@@ -12,4 +12,10 @@ class App {
 
 fun main() {
     println(App().greeting)
+    var papitas:String = "papas"
+    val cruza:String = "cruza"
+    val edad = 15
+    val cond = true
+    println("soy el $papitas")
+    println("soy el $cruza y tengo ${edad + 1} y es $cond")
 }
